@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Sinema.Master" AutoEventWireup="true"  Inherits="FilmWebFormsApp.BilimKurgu" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Sinema.Master" AutoEventWireup="true" CodeBehind="BilimKurgu.aspx.cs" Inherits="FilmWebFormsApp.BilimKurgu" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -26,6 +26,4 @@
 
         </ItemTemplate>
     </asp:Repeater>
-
-
 </asp:Content>

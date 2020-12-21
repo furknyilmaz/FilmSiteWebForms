@@ -55,7 +55,7 @@ namespace FilmWebFormsApp
                 SqlCommand adekle = new SqlCommand("update filmler set adi='" + adi.Text + "' where adi ='" + filmName + "'", sqlConnection);
                 adekle.ExecuteNonQuery();
             }
-            string filmAdi = adi.Text;
+            string filmAdi = adi.Text;           
 
 
             //adi.Text = "";

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace sinema
+namespace FilmWebFormsApp
 {
 
 

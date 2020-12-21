@@ -70,7 +70,7 @@
   <ItemGroup>
     <Content Include="Aksiyon.aspx" />
     <Content Include="Anasayfa.aspx" />
-    <Content Include="Bilim Kurgu.aspx" />
+    <Content Include="BilimKurgu.aspx" />
     <Content Include="Biyografi.aspx" />
     <Content Include="Dram.aspx" />
     <Content Include="FilmDetay.aspx" />
@@ -135,12 +135,12 @@
     <Compile Include="Anasayfa.aspx.designer.cs">
       <DependentUpon>Anasayfa.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Bilim Kurgu.aspx.cs">
-      <DependentUpon>Bilim Kurgu.aspx</DependentUpon>
+    <Compile Include="BilimKurgu.aspx.cs">
+      <DependentUpon>BilimKurgu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Bilim Kurgu.aspx.designer.cs">
-      <DependentUpon>Bilim Kurgu.aspx</DependentUpon>
+    <Compile Include="BilimKurgu.aspx.designer.cs">
+      <DependentUpon>BilimKurgu.aspx</DependentUpon>
     </Compile>
     <Compile Include="Biyografi.aspx.cs">
       <DependentUpon>Biyografi.aspx</DependentUpon>

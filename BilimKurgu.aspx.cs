@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace FilmWebFormsApp
 {
-    public partial class Bilim_Kurgu : System.Web.UI.Page
+    public partial class BilimKurgu : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
