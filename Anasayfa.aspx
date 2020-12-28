@@ -22,8 +22,11 @@
                 <br />
                 Tür: <%# Eval("tur") %>
                 <br />
+                Imdb Puanı: <%# Eval("imdb") %>
+                <br />
                 Özet: <%# Eval("ozet") %>
                 <br />
+
 
             </div>
         </ItemTemplate>

@@ -49,6 +49,11 @@ namespace FilmWebFormsApp
                 SqlCommand surekle = new SqlCommand("update filmler set sure='" + sure.Text + "' where adi='" + filmName + "'", sqlConnection);
                 surekle.ExecuteNonQuery();
             }
+            if (imdb.Text != "")
+            {
+                SqlCommand imdbekle = new SqlCommand("update filmler set imdb='" + imdb.Text + "' where adi='" + filmName + "'", sqlConnection);
+                imdbekle.ExecuteNonQuery();
+            }
             if (adi.Text != "")
             {
 

@@ -22,7 +22,7 @@
     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Film Türü Boş Geçilemez." ControlToValidate="tur"></asp:RequiredFieldValidator>
 </p>
 <p class="auto-style1">
-    Konu:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+    Konu:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
     <asp:TextBox ID="ozet" runat="server"></asp:TextBox>
 </p>
 <p class="auto-style1">
@@ -32,6 +32,10 @@
 <p class="auto-style1">
     Süresi:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <asp:TextBox ID="sure" runat="server" ></asp:TextBox>
+</p>
+    <p class="auto-style1">
+        Imdb Puanı:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="imdb" runat="server" ></asp:TextBox>
 </p>
 <p class="auto-style1">
     Resim:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

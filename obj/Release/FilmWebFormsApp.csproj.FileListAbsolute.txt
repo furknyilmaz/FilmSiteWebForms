@@ -52,11 +52,8 @@ C:\Users\Acer\source\repos\FilmWebFormsApp\FilmWebFormsApp\bin\roslyn\VBCSCompil
 C:\Users\Acer\source\repos\FilmWebFormsApp\FilmWebFormsApp\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Acer\source\repos\FilmWebFormsApp\FilmWebFormsApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Acer\source\repos\FilmWebFormsApp\FilmWebFormsApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Acer\source\repos\FilmWebFormsApp\FilmWebFormsApp\obj\Debug\FilmWebFormsApp.csprojAssemblyReference.cache
-C:\Users\Acer\source\repos\FilmWebFormsApp\FilmWebFormsApp\obj\Debug\FilmWebFormsApp.csproj.CoreCompileInputs.cache
-C:\Users\Acer\source\repos\FilmWebFormsApp\FilmWebFormsApp\obj\Debug\FilmWebFormsApp.csproj.CopyComplete
-C:\Users\Acer\source\repos\FilmWebFormsApp\FilmWebFormsApp\obj\Debug\FilmWebFormsApp.dll
-C:\Users\Acer\source\repos\FilmWebFormsApp\FilmWebFormsApp\obj\Debug\FilmWebFormsApp.pdb
-C:\Users\Acer\source\repos\FilmWebFormsApp\FilmWebFormsApp\bin\HtmlAgilityPack.dll
-C:\Users\Acer\source\repos\FilmWebFormsApp\FilmWebFormsApp\bin\HtmlAgilityPack.pdb
-C:\Users\Acer\source\repos\FilmWebFormsApp\FilmWebFormsApp\bin\HtmlAgilityPack.xml
+C:\Users\Acer\source\repos\FilmWebFormsApp\FilmWebFormsApp\obj\Release\FilmWebFormsApp.csprojAssemblyReference.cache
+C:\Users\Acer\source\repos\FilmWebFormsApp\FilmWebFormsApp\obj\Release\FilmWebFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\FilmWebFormsApp\FilmWebFormsApp\obj\Release\FilmWebFormsApp.csproj.CopyComplete
+C:\Users\Acer\source\repos\FilmWebFormsApp\FilmWebFormsApp\obj\Release\FilmWebFormsApp.dll
+C:\Users\Acer\source\repos\FilmWebFormsApp\FilmWebFormsApp\obj\Release\FilmWebFormsApp.pdb

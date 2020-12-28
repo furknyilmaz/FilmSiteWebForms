@@ -19,6 +19,8 @@
                 <br />
                 Tür: <%# Eval("tur") %>
                 <br />
+                 Imdb Puanı: <%# Eval("imdb") %>
+                <br />
                 Özet: <%# Eval("ozet") %>
                 <br />
             </div>
@@ -64,6 +66,10 @@
             Süresi:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <asp:TextBox ID="sure" runat="server"></asp:TextBox>
         &nbsp;</p>
+            <p class="auto-style1">
+    Imdb Puanı:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="imdb" runat="server" ></asp:TextBox>
+</p>
         <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <asp:Button ID="Button1" runat="server" Text="GÜNCELLE" OnClick="Button1_Click" />

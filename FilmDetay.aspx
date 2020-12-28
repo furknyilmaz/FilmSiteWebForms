@@ -28,6 +28,8 @@
                 <br />
                 Tür: <%# Eval("tur") %>
                 <br />
+                 Imdb Puanı: <%# Eval("imdb") %>
+                <br />
                 Özet: <%# Eval("ozet") %>
                 <br />
                 <asp:Button ID="Button3" runat="server" OnClientClick="return window.confirm('Silmek istediğinize emin misiniz?');" Text="SİL" CommandName="Sil" CommandArgument='<%#  Eval("adi") %>' />

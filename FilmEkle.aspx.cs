@@ -21,13 +21,14 @@ namespace FilmWebFormsApp
             SqlConnection sqlConnection = new SqlConnection("Data Source =.; Initial Catalog = SampleDB; Integrated Security = True");
             sqlConnection.Open();
 
-            SqlCommand ekle = new SqlCommand("insert into filmler (adi,yonetmen,tur,ozet,vizyontarih,sure,resim) values(@adi,@yonetmen,@tur,@ozet,@vizyontarih,@sure,@resim)", sqlConnection);
+            SqlCommand ekle = new SqlCommand("insert into filmler (adi,yonetmen,tur,ozet,vizyontarih,sure,resim,imdb) values(@adi,@yonetmen,@tur,@ozet,@vizyontarih,@sure,@resim,@imdbpuan)", sqlConnection);
             ekle.Parameters.AddWithValue("@adi", adi.Text);
             ekle.Parameters.AddWithValue("@yonetmen", yonetmen.Text);
             ekle.Parameters.AddWithValue("@tur", tur.Text);
             ekle.Parameters.AddWithValue("@ozet", ozet.Text);
             ekle.Parameters.AddWithValue("@vizyontarih", vizyontarih.Text);
             ekle.Parameters.AddWithValue("@sure", sure.Text);
+            ekle.Parameters.AddWithValue("@imdbpuan", imdb.Text);
 
 
             if (FileUpload1.HasFile)
